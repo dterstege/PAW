@@ -156,7 +156,23 @@ If you find this running wheel useful and use it in your experiments, please [ci
 <a name="guide"/>
 
 ### 2. USER GUIDE ###
-temp
+- #### 2.1 Programming the Arduino Microcontroller ### 
+  - Download the latest [Arduino IDE]()
+  - Open this application and, using the *Manage Libraries...* function in the *Tools* tab, install the following libraries:
+    - RTClib (This will allow us to control the DS3231 RTC)
+    - SD (This will allow us to interface into the MicrSD Card)
+  - Open the [PAW Arduino Code]() in the IDE
+  - Set the date and time for the RTC by adjusting the following lines:
+  - 
+         rtc.setTime(17, 30,00);
+         rtc.setDate(31, 10, 2023);
+  - The first of these lines sets the time of day in a 24 hour, hh, mm, ss format (in the above example, the time of day is 5:30 PM)
+  - The second line sets the date in a dd, mm, yyyy format (in the above example, the date is October 31, 2023)
+  - Code can now be flashed to the PAW system
+ - #### 2.2 Accessing and Analyzing Data ####
+   - PAW data can be accessed directly through the WHEEL.CSV file on the MicroSD Card.
+   - Each line in this file will contain a timestamp denoting at which point each wheel rotation occurred, at 1/100th of a second resolution. 
+
 
 ---
 
