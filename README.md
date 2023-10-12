@@ -74,7 +74,30 @@ Current Versions:
     - Minimum Support Overhang Angle: 59
   - Estimated Time: ~ 2 days
 - #### 1.4 Electronics ####
-  - temp
+  - De-solder pins from:
+    -  Hall Effect Sensor
+        - NOTE: most of these sensors have on-board LEDs which can be removed during this process and soldered over
+    -  RTC
+    -  MicroSD Reader Module
+  - Cut 15 x 7 cm lengths of wire (ideally, in 6 different colours as follows):
+    - 3 x Power Wire (red)
+    - 4 x Ground Wire (black)
+    - 3 x Signal A (green)
+    - 2 x Signal B (yellow)
+    - 2 x Signal C (blue)
+    - 1 x Signal D (white)
+  - Strip 7 - 8 mm from each end of each length of wire to allow for solid connections in Arduino headers
+  - Junctions: in this manual, junctions refer to soldering multiple wires together to split a connection (e.g., joining 2 ground wires together so that two components can be plugged into the same ground header on the Arduino)
+    - Ground Junctions (x2):
+      - Step 1: Cut one ground wire down to 3 cm, strip 1 cm from this end
+      - Step 2: Strip the silicone coating from the 2 cm - 2.5 cm marks of a second ground wire
+      - Step 3: Wrap the 1 cm exposed end of the shorter ground wire around the exposed section of the longer ground wire. Solder this connection and then protect with heat shrink tubing.
+      - Step 4: Final junction should allow for two components to be plugged into the same Arduino header
+    - Power Junction (x1):
+      - Step 1: Strip the silicone coating from 3 cm - 3.5 cm marks on one power wire to expose a junction point
+      - Step 2: Strip the silicone coating from 3 cm - 3.5 cm marks on a second power wire to expose a junction point
+      - Step 3: Wrap these two wires around each other at these junction points. Solder this connetion and then protect with heat shrink tubing.
+      - Step 4: Final junction should allow for 3 components to be powered from the same 5V Arduino header.
 - #### 1.5 Putting it all together ####
   - temp
 
