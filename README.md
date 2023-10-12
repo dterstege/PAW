@@ -10,6 +10,8 @@ Current Versions:
 - Base: [v1]() (10/2023)
 - PAW: [v1]() (10/2023)
 
+If you find this running wheel useful and use it in your experiments, please [cite the original PAW manuscript](#cite).
+
 ---
 
 ### TABLE OF CONTENTS ###
