@@ -38,6 +38,8 @@ Current Versions:
   
 - #### 1.2 Parts ####
 
+![parts](/images/parts.png)
+
 | Designator | Component | Quantity | Source |
 | ---------- | --------- | -------- | ------ |
 | Mouse Igloo | Bio-Serv Mouse Igloo (K3570) | 1 | [Bio-Serv]() |
@@ -89,15 +91,45 @@ Current Versions:
   - Strip 7 - 8 mm from each end of each length of wire to allow for solid connections in Arduino headers
   - Junctions: in this manual, junctions refer to soldering multiple wires together to split a connection (e.g., joining 2 ground wires together so that two components can be plugged into the same ground header on the Arduino)
     - Ground Junctions (x2):
+      - ![ground_junction](/images/ground_junction.png)
       - Step 1: Cut one ground wire down to 3 cm, strip 1 cm from this end
       - Step 2: Strip the silicone coating from the 2 cm - 2.5 cm marks of a second ground wire
       - Step 3: Wrap the 1 cm exposed end of the shorter ground wire around the exposed section of the longer ground wire. Solder this connection and then protect with heat shrink tubing.
       - Step 4: Final junction should allow for two components to be plugged into the same Arduino header
     - Power Junction (x1):
+      - ![power_junction](/images/power_junction.png)
       - Step 1: Strip the silicone coating from 3 cm - 3.5 cm marks on one power wire to expose a junction point
       - Step 2: Strip the silicone coating from 3 cm - 3.5 cm marks on a second power wire to expose a junction point
       - Step 3: Wrap these two wires around each other at these junction points. Solder this connetion and then protect with heat shrink tubing.
       - Step 4: Final junction should allow for 3 components to be powered from the same 5V Arduino header.
+  - Wiring (Fritzing as guide):
+    - ![fritzing](/images/Fritzing_github.png)
+    - Boost Converter:
+      - VO: to header Vin on Arduino
+      - GND: to GND on Arduino
+      - Vin: Power from batteries
+    - Batteries:
+      - Power to Boost Converter
+      - Ground to Arduino
+    - Hall Effect Sensor:
+      - pin 1: GND to GND
+      - pin 2: to 5V
+      - pin 3: to header A5
+    - RTC:
+      - GND: to GND
+      - VCC: to 5V
+      - SDA: to header A4
+      - SCL: to header A3
+    - MicroSD Card Module:
+      - CS: to header 4 (digital)
+      - SCK: to header 13 (digital)
+      - MOSI: to header 11 (digital)
+      - MISO: to header 12 (digital)
+      - VCC: to 5V
+    - NOTE: Trim wires as needed for the most compact orientation possible
+  - Solder wires in place, using flux as needed
+  - ![elec](/images/overview_assembled.png)
+
 - #### 1.5 Putting it all together ####
   - temp
 
