@@ -6,9 +6,9 @@
 For detailed instructions on the assembly and use of the PAW system, please see the appropriate sections of this GitHub repository.
 
 Current Versions:
-- Dome: [v1]() (10/2023)
-- Base: [v1]() (10/2023)
-- PAW: [v1]() (10/2023)
+- Dome: [v1](https://github.com/dterstege/PAW/tree/main/BUILD/DOME/v1) (10/2023)
+- Base: [v1](https://github.com/dterstege/PAW/tree/main/BUILD/BASE/v1) (10/2023)
+- PAW: [v1](https://github.com/dterstege/PAW/tree/main/PAW/v1) (10/2023)
 
 If you find this running wheel useful and use it in your experiments, please [cite the original PAW manuscript](#cite).
 
@@ -34,9 +34,9 @@ If you find this running wheel useful and use it in your experiments, please [ci
   
 | File Name | File Type | Link |
 | ---------- | --------- | -------- |
-| Dome | F3D (Fusion360), STL | [v1]() |
-| Base | F3D (Fusion360), STL | [v1]() |
-| PAW | Arduino IDE | [v1]() |
+| Dome | F3D (Fusion360), STL | [v1](https://github.com/dterstege/PAW/tree/main/BUILD/DOME/v1) |
+| Base | F3D (Fusion360), STL | [v1](https://github.com/dterstege/PAW/tree/main/BUILD/BASE/v1) |
+| PAW | Arduino IDE | [v1](https://github.com/dterstege/PAW/tree/main/PAW/v1) |
   
 - #### 1.2 Parts ####
 
@@ -44,22 +44,22 @@ If you find this running wheel useful and use it in your experiments, please [ci
 
 | Designator | Component | Quantity | Source |
 | ---------- | --------- | -------- | ------ |
-| Mouse Igloo | Bio-Serv Mouse Igloo (K3570) | 1 | [Bio-Serv]() |
-| Fast-Trac Wheel | Bio-Serv Fast-Trac (K3251) | 1 | [Bio-Serv]() |
-| Arduino Microcontroller | Arduino UNO R3 | 1 | [3D Printing Canada]() |
-| Hall Sensor | Hall Effect Magnetic Sensor (KY-003) | 1 | [Amazon]() |
-| Real-Time Clock (RTC) | Real Time Clock Module (DS321) | 1 | [Amazon]() |
-| MicroSD Reader | MicroSD Card Reader Module | 1 | [Amazon]() |
-| Boost Converter | T64 DC to DC Step Up Voltage Module | 1 | [Amazon]() |
-| Battery Holder | 3 AA Battery Holder | 1 | [Amazon]() |
-| AA Batteries | High-Capacity Rechargable AA Batteries | 3 | [Amazon]() |
-| CR2032 Battery | Lithium CR2023 Battery | 1 | [Amazon]() |
-| MicroSD Card | 32 GB High Speed MicroSD Card | 1 | [Amazon]() |
-| Silicone Wire | 22 AWG Silicone Wire | 70 cm | [Amazon]() |
-| Magnet | Magnet | 1 | [Amazon]() |
-| 3D Printing Filament | 1.75 mm PLA Filament | 98 g | [Amazon]() |
-| M3x8 Screw | M3x8 Screw | 3 | [Amazon]() |
-| M3x12 Screw | M3x12 Screw | 4 | [Amazon]() |
+| Mouse Igloo | Bio-Serv Mouse Igloo (K3570) | 1 | [Bio-Serv](https://www.bio-serv.com/product/Mouse_Igloo.html) |
+| Fast-Trac Wheel | Bio-Serv Fast-Trac (K3251) | 1 | [Bio-Serv](https://www.bio-serv.com/product/Mouse_Igloo.html) |
+| Arduino Microcontroller | Arduino UNO R3 | 1 | [3D Printing Canada](https://3dprintingcanada.com/products/arduino-uno-r3-with-usb-cable?variant=14108869001259&ab_version=A&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6c0mkKVTBclo_TsJNL7h-8sDUEFHimAureF2F8ooSkBpy2Fl_JDz5waAlbCEALw_wcB) |
+| Hall Sensor | Hall Effect Magnetic Sensor (KY-003) | 1 | [Amazon](https://www.amazon.ca/HiLetgo-Effect-Magnetic-Sensor-Arduino/dp/B01NBE2XIR/ref=sr_1_11?hvadid=667691407406&hvdev=c&hvlocphy=9001320&hvnetw=g&hvqmt=e&hvrand=10586946240617008813&hvtargid=kwd-300772771853&hydadcr=24939_13701817&keywords=a3144+hall+effect+sensor&qid=1695678062&sr=8-11) |
+| Real-Time Clock (RTC) | Real Time Clock Module (DS321) | 1 | [Amazon](https://www.amazon.ca/Geekstory-Precision-AT24C32-Arduino-Raspberry/dp/B085XT4RJF?th=1) |
+| MicroSD Reader | MicroSD Card Reader Module | 1 | [Amazon](https://www.amazon.ca/Willwin-Adapter-Reader-Module-Arduino/dp/B077P18N78/ref=sr_1_11?crid=3KO1Q53MW70PJ&keywords=microsd%2Bmodule&qid=1695677807&s=electronics&sprefix=microsd%2Bmodule%2Celectronics%2C132&sr=1-11&th=1) |
+| Boost Converter | T64 DC to DC Step Up Voltage Module | 1 | [Amazon](https://www.amazon.ca/10Pcs-DC-DC-Boost-Converter-Modules/dp/B07MTH1R39/ref=sr_1_16?crid=DW2K8JW3GU05&keywords=5v+dc+dc+step+up&qid=1688484902&sprefix=5v+dc+dc+step+up%2Caps%2C116&sr=8-16) |
+| Battery Holder | 3 AA Battery Holder | 1 | [Amazon](https://www.amazon.ca/LampVPath-Battery-Holder-Leads-Wires/dp/B07WRQ3XTJ/ref=sr_1_5?crid=2LUS3M99AU56B&keywords=3+aa+battery+holder&qid=1695678384&sprefix=3+AA%2Caps%2C177&sr=8-5) |
+| AA Batteries | High-Capacity Rechargable AA Batteries | 3 | [Amazon](https://www.amazon.ca/EBL-Capacity-Rechargeable-Batteries-Included/dp/B01DZYSK72/ref=sr_1_34?crid=3G5IRWDPO9SK7&keywords=aa%2Bbatteries&qid=1695678735&sprefix=AA%2Caps%2C203&sr=8-34&th=1) |
+| CR2032 Battery | Lithium CR2023 Battery | 1 | [Amazon](https://www.amazon.ca/Energizer-2032BP-6-Lithium-Battery-Count/dp/B0002RID4G/ref=sr_1_5?crid=2178CZ8F2PMRY&keywords=cr2032&qid=1695678625&sprefix=CR%2Caps%2C185&sr=8-5&th=1) |
+| MicroSD Card | 32 GB High Speed MicroSD Card | 1 | [Amazon](https://www.amazon.ca/Silicon-Power-Speed-MicroSD-Adapter/dp/B07RRX7XWF/ref=sr_1_6?crid=MLFCRD98PNQZ&keywords=sp%2B3d%2Bnano&qid=1695680447&sprefix=sp%2B3d%2Bnano%2Caps%2C141&sr=8-6&th=1) |
+| Silicone Wire | 22 AWG Silicone Wire | 70 cm | [Amazon](https://www.amazon.ca/CBAZYTM-Stranded-Gauge-colors-Electrical/dp/B075M7YZXC/ref=sr_1_2_sspa?crid=6MECIRCG3J2E&keywords=hook%2Bup%2Bwire%2B22%2Bawg&qid=1695679152&sprefix=hook%2Bup%2Bwire%2B22%2Caps%2C123&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1) |
+| Magnet | Magnet | 1 | [Amazon](https://www.amazon.ca/Craft-Magnets-Ceramic-Refrigerator-Whiteboard/dp/B07S75MD7X/ref=sr_1_10?crid=16ACULN3BZIQI&keywords=magnet&qid=1695680080&sprefix=magnet%2Caps%2C176&sr=8-10&th=1) |
+| 3D Printing Filament | 1.75 mm PLA Filament | 98 g | [Amazon](https://www.amazon.ca/AMZ3D-1-75mm-Printer-Filament-Black/dp/B01BZ5ND8O/ref=asc_df_B01BZ5ND8O/?tag=googleshopc0c-20&linkCode=df0&hvadid=292982668511&hvpos=&hvnetw=g&hvrand=1112761188398538947&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001318&hvtargid=pla-380498731113&th=1) |
+| M3x8 Screw | M3x8 Screw | 3 | [Amazon](https://www.amazon.ca/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ9BRCK/ref=sr_1_26?crid=36BMALKGCKR0I&keywords=m3x8&qid=1695681161&s=hi&sprefix=m3x8%2Ctools%2C124&sr=1-26&th=1) |
+| M3x12 Screw | M3x12 Screw | 4 | [Amazon](https://www.amazon.ca/dp/B07CK58Z48/ref=twister_B07MNPL15J?_encoding=UTF8&th=1) |
 
 - 
   - Solder and flux applied as needed during assembly
@@ -68,8 +68,8 @@ If you find this running wheel useful and use it in your experiments, please [ci
   - Non-toxic hot glue to fix magnet to the underside of the Fast-Trac wheel
  
 - #### 1.3 3D Printing ####
-  - Download [Dome]() and [Base]() STL files
-  - Slice g-code in your slicer of choice (e.g., [Ultimaker Cura]())
+  - Download [Dome](https://github.com/dterstege/PAW/tree/main/BUILD/DOME) and [Base](https://github.com/dterstege/PAW/tree/main/BUILD/BASE) STL files
+  - Slice g-code in your slicer of choice (e.g., [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/))
   - Print Settings (Based on Creality Ender 3 V2 3D Printer):
     - Nozzle: 0.4 mm
     - Layer Height: 0.12 mm
@@ -157,11 +157,11 @@ If you find this running wheel useful and use it in your experiments, please [ci
 
 ### 2. USER GUIDE ###
 - #### 2.1 Programming the Arduino Microcontroller ### 
-  - Download the latest [Arduino IDE]()
+  - Download the latest [Arduino IDE](https://www.arduino.cc/en/software)
   - Open this application and, using the *Manage Libraries...* function in the *Tools* tab, install the following libraries:
     - RTClib (This will allow us to control the DS3231 RTC)
     - SD (This will allow us to interface into the MicrSD Card)
-  - Open the [PAW Arduino Code]() in the IDE
+  - Open the [PAW Arduino Code](https://github.com/dterstege/PAW/tree/main/PAW) in the IDE
   - Set the date and time for the RTC by adjusting the following lines:
   - 
          rtc.setTime(17, 30,00);
