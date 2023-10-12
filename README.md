@@ -75,6 +75,7 @@ Current Versions:
     - Infill: 50%
     - Minimum Support Overhang Angle: 59
   - Estimated Time: ~ 2 days
+  - ![prints](/images/dome_base.png)
 - #### 1.4 Electronics ####
   - De-solder pins from:
     -  Hall Effect Sensor
@@ -131,7 +132,22 @@ Current Versions:
   - ![elec](/images/overview_assembled.png)
 
 - #### 1.5 Putting it all together ####
-  - temp
+  - Insert CR2032 Battery in RTC module
+  - Insert MicroSD Card in MicroSD Reader module
+  - Insert 3 x AA Batteries in the Battery Holder
+  - Insert four M3x12 Screws through the underside of the Base in the holes in the center ring
+  - ![basescrew](/images/base_screw.png)
+  - Turn the base component over and fit these screws through the holes of the Arduino (this will keep it in place) and arrange the battery holder on top of the electronics
+  - ![basearduino](/images/base_arduino.png)
+  - Place the Dome overtop, with the Hall Effect Sensor lined-up with the hole in the Dome
+  - On the underside of the Base,secure the Dome to the Base with three M3x8 Screws along the perimeter of the Base
+  - ![screw](/images/base_closed.png)
+  - The Bio-Serv Mouse Igloo will now fit securely over this whole assembly
+  - ![igloo](/images/igloo.png)
+  - To interact with the Hall Effect Sensor, a magnet needs to be glued to the inside of the Fast-Trac Wheel
+  - ![magnet](/images/magnet_wheel.png)
+  - Now the wheel can be attached to the igloo - completing the assembly
+  - ![assembled](/images/full_assembly.png)
 
 ---
 
