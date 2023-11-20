@@ -8,7 +8,7 @@ For detailed instructions on the assembly and use of the PAW system, please see 
 Current Versions:
 - Dome: [v1](https://github.com/dterstege/PAW/tree/main/BUILD/DOME/v1) (10/2023)
 - Base: [v1](https://github.com/dterstege/PAW/tree/main/BUILD/BASE/v1) (10/2023)
-- PAW: [v1](https://github.com/dterstege/PAW/tree/main/PAW/v1) (10/2023)
+- PAW: [v2](https://github.com/dterstege/PAW/tree/main/PAW/v2) (11/2023)
 
 If you find this running wheel useful and use it in your experiments, please [cite the original PAW manuscript](#cite).
 
@@ -38,7 +38,7 @@ If you find this running wheel useful and use it in your experiments, please [ci
 | ---------- | --------- | -------- |
 | Dome | F3D (Fusion360), STL | [v1](https://github.com/dterstege/PAW/tree/main/BUILD/DOME/v1) |
 | Base | F3D (Fusion360), STL | [v1](https://github.com/dterstege/PAW/tree/main/BUILD/BASE/v1) |
-| PAW | Arduino IDE | [v1](https://github.com/dterstege/PAW/tree/main/PAW/v1) |
+| PAW | Arduino IDE | [v2](https://github.com/dterstege/PAW/tree/main/PAW/v2) |
   
 - #### 1.2 Parts ####
 
@@ -172,7 +172,8 @@ If you find this running wheel useful and use it in your experiments, please [ci
   - The second line sets the date in a dd, mm, yyyy format (in the above example, the date is October 31, 2023)
   - Code can now be flashed to the PAW system
  - #### 2.2 Accessing and Analyzing Data ####
-   - PAW data can be accessed directly through the WHEEL.CSV file on the MicroSD Card.
+   - PAW data can be accessed directly through the output CSV files on the MicroSD Card.
+   - A new file will be generated on each day (*added in PAW, v2*)
    - Each line in this file will contain a timestamp denoting at which point each wheel rotation occurred, at 1/100th of a second resolution. 
 
 
