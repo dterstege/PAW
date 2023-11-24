@@ -12,7 +12,7 @@ Current Versions:
 
 If you find this running wheel useful and use it in your experiments, please [cite the original PAW manuscript](#cite).
 
-[![DOI](https://zenodo.org/badge/698318961.svg)](https://zenodo.org/badge/latestdoi/698318961)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10204775.svg)](https://doi.org/10.5281/zenodo.10204775)
 
 ---
 
